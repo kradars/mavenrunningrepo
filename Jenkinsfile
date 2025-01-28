@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kradars/jenkinsrepo.git'
+                git 'https://github.com/kradars/mavenrunningrepo.git'
             }
         }
         stage('Build') {
